@@ -10,11 +10,17 @@ div {
 header {
   text-align: center;
   padding: 2rem;
+  
 }
 
 .task-1 {
   border: solid;
   padding: 1rem;
+  display:flex; 
+  justify-content: space-between;
+
+
+
 }
 .task-1 p {
   border: dotted;
@@ -24,6 +30,8 @@ header {
 .task-2 {
   border: solid;
   padding: 1rem;
+  display: grid; 
+
 }
 .task-2 p {
   border: dotted;
@@ -33,6 +41,8 @@ header {
 .task-3 {
   border: solid;
   padding: 1rem;
+  background-color: orange; 
+
 }
 .task-3 p {
   padding: 1rem;
@@ -41,6 +51,7 @@ header {
 .task-4 {
   border: solid;
   padding: 1rem;
+  background-color:rgb(56, 173, 194);
 }
 .task-4 p {
   padding: 1rem;
@@ -50,6 +61,7 @@ header {
   border: solid;
   padding: 1rem;
   margin-bottom: 1rem;
+
 }
 
 .task-6 {
@@ -58,4 +70,39 @@ header {
 }
 .task-6 p {
   padding: 1rem;
+}
+
+.colour {
+  background-color: orange;
+}
+
+.font {
+  background-color: rgb(56, 173, 194);
+  color: white; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(210, 182, 236);
+}
+
+main {
+
+  
+  display: inline-flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+
+}
+
+
+img {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%;
+  width: 140px; 
+  height: 120px; 
+
 }
